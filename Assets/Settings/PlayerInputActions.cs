@@ -177,8 +177,30 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""07f6e729-be43-46ed-97e5-fb581f24794f"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": ""StickDeadzone(min=0.5)"",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""ee898d6c-4c7c-4aa6-8f07-03ea04fb3796"",
                     ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6f7947f1-0fdb-4893-b512-508611eccbf3"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -199,8 +221,30 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""b47b5b0e-bbaa-45b1-a3cb-9b95d03d2b04"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""InteractAlternate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""b7a183c5-0ec3-4538-ab5a-1fdecd698d20"",
                     ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9b95ac1e-6818-400b-a651-dc2702217f52"",
+                    ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
