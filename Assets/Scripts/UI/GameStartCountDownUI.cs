@@ -5,8 +5,18 @@ using TMPro;
 
 public class GameStartCountDownUI : MonoBehaviour
 {
+    private const string NUMBER_POPUP = "NumberPopup";
+
     [SerializeField] private TextMeshProUGUI countDownText;
 
+    private Animator animator;
+    private int previousCountdownNumber;
+
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void Start()
     {
         GameManager.Instance.OnStateChanged += GameManager_OnStateChanged;
@@ -26,7 +36,15 @@ public class GameStartCountDownUI : MonoBehaviour
 
     private void Update()
     {
-        countDownText.text = Mathf.Ceil(GameManager.Instance.GetCountDownToStart()).ToString();
+        int countdownNumber = Mathf.CeilToInt(GameManager.Instance.GetCountDownToStart());
+        countDownText.text = countdownNumber.ToString();
+
+        if (previousCountdownNumber != countdownNumber)
+        {
+            previousCountdownNumber = countdownNumber;
+            animator.SetTrigger(NUMBER_POPUP);
+            SoundManager.Instance.PlayCountdownSound();
+        }
     }
 
     private void Show()
