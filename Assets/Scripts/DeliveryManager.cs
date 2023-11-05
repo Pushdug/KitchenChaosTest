@@ -56,7 +56,7 @@ public class DeliveryManager : MonoBehaviour
                     bool ingridientFound = false;
                     foreach (KitchenObjectSO plateKitchenObjectSO in plateKitchenObject.GetKitchenObjectSOList())
                     {
-                        if (plateKitchenObject == recipeKitchenObjectSO)
+                        if (plateKitchenObjectSO == recipeKitchenObjectSO)
                         {
                             ingridientFound = true;
                             break;
