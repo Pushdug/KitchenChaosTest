@@ -10,7 +10,7 @@ public class SelectCounterVisual : MonoBehaviour
     private void Start()
     {
 
-        Player.Instance.OnSelectCounterChanged += Player_OnSelectCounterChanged;
+       // Player.Instance.OnSelectCounterChanged += Player_OnSelectCounterChanged;
     }
 
     private void Player_OnSelectCounterChanged(object sender, Player.OnSelectCounterChangedEventArgs e)
