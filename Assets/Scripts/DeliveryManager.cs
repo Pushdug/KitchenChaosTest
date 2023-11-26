@@ -85,17 +85,13 @@ public class DeliveryManager : NetworkBehaviour
 
                 if (plateContentsMatchesRecipe)
                 {
-                    successfulRecipesAmount++;
-                    waitingRecipeSOList.RemoveAt(i);
-                    OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
-                    OnRecipeSuccess?.Invoke(this, EventArgs.Empty);
-
+                    DeliverCorrectRecipeServerRpc(i);
                     return;
                 }
             }
         }
 
-        OnRecipeFailed?.Invoke(this, EventArgs.Empty);
+        DeliverIncorrectRecipeServerRpc();
     }
 
     public List<RecipeSO> GetWaitingRecipeSOList()
@@ -106,5 +102,32 @@ public class DeliveryManager : NetworkBehaviour
     public int GetSucessfulRecipesAmount()
     {
         return successfulRecipesAmount;
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void DeliverCorrectRecipeServerRpc(int waitingRecipeSOListIndex)
+    {
+        DeliverCorrectRecipeClientRpc(waitingRecipeSOListIndex);
+    }
+
+    [ClientRpc]
+    private void DeliverCorrectRecipeClientRpc(int waitingRecipeSOListIndex)
+    {
+        successfulRecipesAmount++;
+        waitingRecipeSOList.RemoveAt(waitingRecipeSOListIndex);
+        OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
+        OnRecipeSuccess?.Invoke(this, EventArgs.Empty);
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void DeliverIncorrectRecipeServerRpc()
+    {
+        DeliverIncorrectRecipeClientRpc();
+    }
+
+    [ClientRpc]
+    private void DeliverIncorrectRecipeClientRpc()
+    {
+        OnRecipeFailed?.Invoke(this, EventArgs.Empty);
     }
 }
