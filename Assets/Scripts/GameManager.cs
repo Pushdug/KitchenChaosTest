@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     }
 
     private State state;
-    private float countDownToStartTimer = 1;
+    private float countDownToStartTimer = 4;
     private float gamePlayingTimerMax = 300;
     private float gamePlayingTimer;
     private bool isGamePaused;
