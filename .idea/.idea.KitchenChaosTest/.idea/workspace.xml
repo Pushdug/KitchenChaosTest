@@ -6,25 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="696e2411-2136-440c-b7ed-907a9b5df7df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counters/BaseCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counters/BaseCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counters/ClearCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counters/ClearCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Bread.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Bread.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Cabbage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Cabbage.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/CabbageSlices.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/CabbageSlices.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/CheeseBlock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/CheeseBlock.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/CheeseSlices.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/CheeseSlices.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/MeatPattyBurned.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/MeatPattyBurned.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/MeatPattyCooked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/MeatPattyCooked.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/MeatPattyUncoocked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/MeatPattyUncoocked.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Plate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Plate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Tamata.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/Tamata.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/TamataSlices.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kitchen Objects/TamataSlices.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/BaseCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/BaseCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/ContainerCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/ContainerCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/PlatesCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/PlatesCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/TrashCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/TrashCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenGameMultiplayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenGameMultiplayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlateKitchenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlateKitchenObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +28,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\andis\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\andis\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\andis\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\andis\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\andis\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\andis\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../OneDrive/Документы/Kitchen Chaos Multiplayer Test/KitchenChaos.exe" />
@@ -106,10 +92,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13044">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13044" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -127,7 +113,8 @@
       <updated>1699175284035</updated>
       <workItem from="1699175310447" duration="3072000" />
       <workItem from="1702200364238" duration="689000" />
-      <workItem from="1702805828058" duration="3900000" />
+      <workItem from="1702805828058" duration="4180000" />
+      <workItem from="1703085477274" duration="2086000" />
     </task>
     <servers />
   </component>
