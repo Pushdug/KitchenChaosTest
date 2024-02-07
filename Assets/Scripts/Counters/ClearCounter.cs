@@ -13,9 +13,6 @@ public class ClearCounter : BaseCounter, IKitchenObjectParent
             if (player.HasKitchenObject())
             {
                 player.GetKitchenObject().SetKitchenObjectParent(this);
-            } else
-            {
-
             }
         } else
         {
@@ -25,7 +22,7 @@ public class ClearCounter : BaseCounter, IKitchenObjectParent
                 {
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
                     {
-                        GetKitchenObject().DestroySelf();
+                       KitchenObject.DestroyKitchenObject(GetKitchenObject());
                     }
                 }else
                 {
@@ -33,7 +30,7 @@ public class ClearCounter : BaseCounter, IKitchenObjectParent
                     {
                         if (plateKitchenObject.TryAddIngredient(player.GetKitchenObject().GetKitchenObjectSO()))
                         {
-                            player.GetKitchenObject().DestroySelf();
+                            KitchenObject.DestroyKitchenObject(player.GetKitchenObject());
                         }
                     }
                 }

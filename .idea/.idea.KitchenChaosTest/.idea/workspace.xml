@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="696e2411-2136-440c-b7ed-907a9b5df7df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/ClearCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/ClearCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/CuttingCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/StoveCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/StoveCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlateKitchenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlateKitchenObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +115,8 @@
       <workItem from="1702200364238" duration="689000" />
       <workItem from="1702805828058" duration="4180000" />
       <workItem from="1703085477274" duration="2936000" />
+      <workItem from="1703413050154" duration="4968000" />
+      <workItem from="1707321263182" duration="2046000" />
     </task>
     <servers />
   </component>
@@ -133,5 +139,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KitchenGameMultiplayer.cs</url>
+          <line>43</line>
+          <properties documentPath="C:\Users\andis\KitchenChaosTest\Assets\Scripts\KitchenGameMultiplayer.cs" initialLine="43" containingFunctionPresentation="Method 'GetKitchenObjectSOFromIndex'">
+            <startOffsets>
+              <option value="1768" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1769" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
