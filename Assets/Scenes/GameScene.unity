@@ -3639,7 +3639,7 @@ GameObject:
   - component: {fileID: 419348370}
   - component: {fileID: 419348369}
   - component: {fileID: 419348368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9268,7 +9268,7 @@ GameObject:
   - component: {fileID: 1039000817}
   - component: {fileID: 1039000816}
   - component: {fileID: 1039000815}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11588,7 +11588,7 @@ GameObject:
   - component: {fileID: 1147571611}
   - component: {fileID: 1147571610}
   - component: {fileID: 1147571609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14231,7 +14231,7 @@ GameObject:
   - component: {fileID: 1509020363}
   - component: {fileID: 1509020362}
   - component: {fileID: 1509020361}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14856,7 +14856,7 @@ PrefabInstance:
     - target: {fileID: 4845276930943762971, guid: 2da3dcc22749e7f4280737786d898334,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000022888184
+      value: -0.0000076293945
       objectReference: {fileID: 0}
     - target: {fileID: 4845637959249703711, guid: 2da3dcc22749e7f4280737786d898334,
         type: 3}
