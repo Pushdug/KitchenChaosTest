@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,21 +21,21 @@ public class TutorialUI : MonoBehaviour
     private void Start()
     {
         GameInput.Instance.OnBindingRebind += GameInput_OnBindingRebind;
-        GameManager.Instance.OnStateChanged += GameManager_OnStateChanged;
+        GameManager.Instance.OnLocalPlayerReadyChanged += GameManagerOnLocalPlayerReadyChanged;
 
         UpdateVisual();
         Show();
     }
 
-    private void GameManager_OnStateChanged(object sender, System.EventArgs e)
+    private void GameManagerOnLocalPlayerReadyChanged (object sender, EventArgs e)
     {
-        if (GameManager.Instance.isCountDownToStartActive())
+        if (GameManager.Instance.IsLocalPlayerReady())
         {
             Hide();
         }
     }
 
-    private void GameInput_OnBindingRebind(object sender, System.EventArgs e)
+    private void GameInput_OnBindingRebind(object sender, EventArgs e)
     {
         UpdateVisual();
     }
