@@ -74,13 +74,13 @@ public class OptionsUI : MonoBehaviour
 
     private void Start()
     {
-        GameManager.Instance.OnGameUnpaused += GameManager_OnGameUnpaused;
+        GameManager.Instance.OnLocalGameUnpaused += LocalGameManagerOnLocalGameUnpaused;
         UpdateVisual();
         Hide(this.gameObject);
         Hide(pressToRebindKeyTransform.gameObject);
     }
 
-    private void GameManager_OnGameUnpaused(object sender, System.EventArgs e)
+    private void LocalGameManagerOnLocalGameUnpaused(object sender, System.EventArgs e)
     {
         Hide(this.gameObject);
     }

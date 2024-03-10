@@ -30,18 +30,18 @@ public class GamePauseUI : MonoBehaviour
 
     private void Start()
     {
-        GameManager.Instance.OnGamePaused += GameManager_OnGamePaused;
-        GameManager.Instance.OnGameUnpaused += GameManager_OnGameUnpaused;
+        GameManager.Instance.OnLocalGamePaused += LocalGameManagerOnLocalGamePaused;
+        GameManager.Instance.OnLocalGameUnpaused += LocalGameManagerOnLocalGameUnpaused;
 
         Hide();
     }
 
-    private void GameManager_OnGameUnpaused(object sender, System.EventArgs e)
+    private void LocalGameManagerOnLocalGameUnpaused(object sender, System.EventArgs e)
     {
         Hide();
     }
 
-    private void GameManager_OnGamePaused(object sender, System.EventArgs e)
+    private void LocalGameManagerOnLocalGamePaused(object sender, System.EventArgs e)
     {
         Show();
     }
