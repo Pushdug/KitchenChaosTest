@@ -27,6 +27,7 @@ public class GameManager : NetworkBehaviour
     private NetworkVariable<float> gamePlayingTimer = new NetworkVariable<float>(0f);
     private float gamePlayingTimerMax = 300f;
     private bool isLocalGamePaused;
+    private bool autoTestGamePauseState;
     private NetworkVariable<bool> isGamePaused = new NetworkVariable<bool>(false);
     private bool isLocalPlayerReady;
     private Dictionary<ulong, bool> playerReadyDictionary;
@@ -49,6 +50,16 @@ public class GameManager : NetworkBehaviour
     {
         state.OnValueChanged+= State_OnValueChanged;
         isGamePaused.OnValueChanged += IsGamePaused_OnValueChanged;
+
+        if (IsServer)
+        {
+            NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManagerOnOnClientDisconnectCallback;
+        }
+    }
+
+    private void NetworkManagerOnOnClientDisconnectCallback (ulong clientId)
+    {
+        autoTestGamePauseState = true;
     }
 
     private void IsGamePaused_OnValueChanged (bool previousvalue, bool newvalue)
@@ -136,6 +147,15 @@ public class GameManager : NetworkBehaviour
         }
     }
 
+    private void LateUpdate()
+    {
+        if (autoTestGamePauseState)
+        {
+            autoTestGamePauseState = false;
+            TestGamePauseState();
+        }
+    }
+
     public bool IsGamePlaying()
     {
         return state.Value == State.GamePlaying;
@@ -204,6 +224,6 @@ public class GameManager : NetworkBehaviour
             }
         }
         
-        isGamePaused.Value = true;
+        isGamePaused.Value = false;
     }
 }

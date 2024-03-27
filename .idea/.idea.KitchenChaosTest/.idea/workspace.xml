@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GamePauseUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GamePauseUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/OptionsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/OptionsUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,9 @@
       <workItem from="1708529322399" duration="2435000" />
       <workItem from="1709133900471" duration="2126000" />
       <workItem from="1709738155161" duration="2640000" />
-      <workItem from="1710066225566" duration="2147000" />
+      <workItem from="1710066225566" duration="2878000" />
+      <workItem from="1710670122254" duration="2121000" />
+      <workItem from="1711553099208" duration="1200000" />
     </task>
     <servers />
   </component>

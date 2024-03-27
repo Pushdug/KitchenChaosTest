@@ -1,11 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using Unity.Mathematics;
 using Unity.Netcode;
-using UnityEditor.Experimental;
-using UnityEngine.Serialization;
 
 public class Player : NetworkBehaviour, IKitchenObjectParent
 {
@@ -48,6 +44,19 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
         transform.position = spawnPositionsList[(int)OwnerClientId];
 
         OnAnyPlayerSpawned?.Invoke(this, EventArgs.Empty);
+
+        if (IsServer)
+        {
+            NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManagerOnOnClientDisconnectCallback;
+        }
+    }
+
+    private void NetworkManagerOnOnClientDisconnectCallback (ulong clientId)
+    {
+        if (clientId == OwnerClientId && HasKitchenObject())
+        {
+            KitchenObject.DestroyKitchenObject(GetKitchenObject());
+        }
     }
 
     private void Start()
