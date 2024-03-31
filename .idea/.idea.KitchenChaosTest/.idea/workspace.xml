@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GamePauseUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GamePauseUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenGameMultiplayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenGameMultiplayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/TestingNetcodeUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/TestingNetcodeUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,8 @@
       <workItem from="1709738155161" duration="2640000" />
       <workItem from="1710066225566" duration="2878000" />
       <workItem from="1710670122254" duration="2121000" />
-      <workItem from="1711553099208" duration="1200000" />
+      <workItem from="1711553099208" duration="2054000" />
+      <workItem from="1711876029706" duration="934000" />
     </task>
     <servers />
   </component>
@@ -153,13 +154,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/KitchenGameMultiplayer.cs</url>
-          <line>43</line>
+          <line>66</line>
           <properties documentPath="C:\Users\andis\KitchenChaosTest\Assets\Scripts\KitchenGameMultiplayer.cs" initialLine="43" containingFunctionPresentation="Method 'GetKitchenObjectSOFromIndex'">
             <startOffsets>
-              <option value="1768" />
+              <option value="2538" />
             </startOffsets>
             <endOffsets>
-              <option value="1769" />
+              <option value="2539" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
