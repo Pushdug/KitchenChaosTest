@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="696e2411-2136-440c-b7ed-907a9b5df7df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyMessageUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyMessageUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LobbyUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaosTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenGameLobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenGameLobby.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/WaitingForOtherPlayersUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.2.0/Runtime/Core/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.2.0/Runtime/Messaging/Messages/RpcMessages.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.2.0/Runtime/Transports/UTP/UnityTransport.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.transport@1.3.4/Runtime/Relay/RelayServerData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -150,7 +153,8 @@
       <workItem from="1718202264254" duration="2190000" />
       <workItem from="1718806258766" duration="2706000" />
       <workItem from="1719410966895" duration="3427000" />
-      <workItem from="1719738732437" duration="2461000" />
+      <workItem from="1719738732437" duration="2818000" />
+      <workItem from="1720620745697" duration="2666000" />
     </task>
     <servers />
   </component>
